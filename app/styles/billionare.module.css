@@ -1,0 +1,37 @@
+.billion {
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  cursor: pointer;
+  place-items: center;
+}
+.billion img {
+  max-width: 100%;
+  min-height: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+.billion img {
+  opacity: 0.7;
+}
+.billion img:hover {
+  opacity: 1;
+}
+
+.textContainer {
+  background-color: #001f3f; /* Dark navy background */
+  width: 100%; /* Match the image width */
+  text-align: left; /* Center-align text inside */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.textContainer a,
+.textContainer h2 {
+  color: white; /* Ensure text is readable */
+  margin: 10px; /* Remove default margins */
+}
+
+.textContainer a {
+  font-weight: bold;
+  display: block; /* Take full width */
+}
