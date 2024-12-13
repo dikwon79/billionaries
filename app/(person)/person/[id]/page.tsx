@@ -1,4 +1,4 @@
-import { API_URL } from "../../../(home)/page";
+import { API_URL } from "../../../constant";
 
 async function getBillionare(id: string) {
   const response = await fetch(`${API_URL}/person/${id}`);
